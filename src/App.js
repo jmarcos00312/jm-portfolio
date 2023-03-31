@@ -3,7 +3,6 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
-import About from './Pages/About'
 import Project from './Pages/Project';
 import Resume from './Pages/Resume';
 import Contact from './Pages/Contact'
@@ -18,7 +17,6 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
             <Route path="/project" component={Project} />
             <Route path="/resume" component={Resume} />
             <Route path="/blog" component={Blog} />
