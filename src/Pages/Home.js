@@ -5,11 +5,10 @@ export default function Home() {
   return (
     <div className="home-page">
       Home/picture maybe
-      <div>
+      <div className="about-me">
         About me
       </div>
-
-      <div classname="social media and logos">
+      <div classname="social-logos">
         social media links and logos
       </div>
     </div>
