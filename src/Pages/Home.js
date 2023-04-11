@@ -4,7 +4,7 @@ import "../Styles/Home.css"
 export default function Home() {
   return (
     <div className="home-page">
-      Home/picture maybe
+      <h1 className="welcome">Welcome</h1>
       <div className="about-me">
         About me
       </div>
