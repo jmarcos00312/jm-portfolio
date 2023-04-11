@@ -4,11 +4,6 @@ import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
-<<<<<<< HEAD
-
-=======
-    const [isOpen, setIsOpen] = useState(false)
->>>>>>> d8e1d4b80ec6dcb563b70e0791a30f1da2517b5d
 
 
     return (
