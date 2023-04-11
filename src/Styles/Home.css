@@ -1,7 +1,35 @@
 .home-page{
     color: #ffffff;
     font-size: 90px;
-    padding-top: 70px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-top:75px;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid lightblue;
+
+}
+
+.about-me{
+    border: 1px solid white;
+    max-width: 85vh;
+    padding: 10vh ;
+    font-size: 23px;
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+h5 {
+    display: inline-block;
+    margin: 0;
+    font-size:25px;
+}
+#career-title{
+    font-size:29px;
+    display: inline-block;
+    margin: 0;
 }
